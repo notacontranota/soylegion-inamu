@@ -50,12 +50,12 @@ global = {
   lily.append ("    subsubtitle = \"Dados: " + repr(dados) + "\"\n")
   lily.append ("""    instrument = \"Partitura general\"
     composer = \"Pablo Herrera\"
-    copyright = \\markup {\\with-url #\"http://lecturayescrituramusical.blogspot.com/\" {
+    copyright = \\markup {\\with-url #\"https://github.com/notacontranota/soylegion-inamu\" {
       \\center-column {
         \\concat { \\epsfile #0 #11 #\"recursos/soyinamu.eps\"
         \\epsfile #0 #15 #\"recursos/soyncn.eps\" }
-        \\bold {\"Instituto Nacional de lla Música & Nota contra Nota\"}
-        \"http://lecturayescrituramusical.blogspot.com/\"
+        \\bold {\"Instituto Nacional de la Música & Nota contra Nota\"}
+        \"https://github.com/notacontranota/soylegion-inamu\"
         \\null
         }
       }
@@ -112,12 +112,12 @@ global = {
     instrument = \"Violín, Flauta u Oboe\"\n """)
   lily.append ("   subsubtitle = \"Dados: " + repr(dados) + "\"\n")
   lily.append ("""    composer = \"Pablo Herrera\"
-    copyright = \\markup {\\with-url #\"http://lecturayescrituramusical.blogspot.com/\" {
+    copyright = \\markup {\\with-url #\"https://github.com/notacontranota/soylegion-inamu\" {
       \\center-column {
         \\concat { \\epsfile #0 #11 #\"recursos/soyinamu.eps\"
         \\epsfile #0 #15 #\"recursos/soyncn.eps\" }
-        \\bold {\"Instituto Nacional de lla Música & Nota contra Nota\"}
-        \"http://lecturayescrituramusical.blogspot.com/\"
+        \\bold {\"Instituto Nacional de la Música & Nota contra Nota\"}
+        \"https://github.com/notacontranota/soylegion-inamu\"
         \\null
         }
       }
@@ -147,12 +147,12 @@ global = {
     instrument = \\markup { \\concat {\"Viola o Clarinete en Si\" \\flat} }\n """)
   lily.append ("   subsubtitle = \"Dados: " + repr(dados) + "\"\n")
   lily.append ("""    composer = \"Pablo Herrera\"
-    copyright = \\markup {\\with-url #\"http://lecturayescrituramusical.blogspot.com/\" {
+    copyright = \\markup {\\with-url #\"https://github.com/notacontranota/soylegion-inamu\" {
       \\center-column {
         \\concat { \\epsfile #0 #11 #\"recursos/soyinamu.eps\"
         \\epsfile #0 #15 #\"recursos/soyncn.eps\" }
-        \\bold {\"Instituto Nacional de lla Música & Nota contra Nota\"}
-        \"http://lecturayescrituramusical.blogspot.com/\"
+        \\bold {\"Instituto Nacional de la Música & Nota contra Nota\"}
+        \"https://github.com/notacontranota/soylegion-inamu\"
         \\null
         }
       }
@@ -196,12 +196,12 @@ global = {
     instrument = \"Violoncello o Fagot\"\n """)
   lily.append ("   subsubtitle = \"Dados: " + repr(dados) + "\"\n")
   lily.append ("""    composer = \"Pablo Herrera\"
-    copyright = \\markup {\\with-url #\"http://lecturayescrituramusical.blogspot.com/\" {
+    copyright = \\markup {\\with-url #\"https://github.com/notacontranota/soylegion-inamu\" {
       \\center-column {
         \\concat { \\epsfile #0 #11 #\"recursos/soyinamu.eps\"
         \\epsfile #0 #15 #\"recursos/soyncn.eps\" }
-        \\bold {\"Instituto Nacional de lla Música & Nota contra Nota\"}
-        \"http://lecturayescrituramusical.blogspot.com/\"
+        \\bold {\"Instituto Nacional de la Música & Nota contra Nota\"}
+        \"https://github.com/notacontranota/soylegion-inamu\"
         \\null
         }
       }

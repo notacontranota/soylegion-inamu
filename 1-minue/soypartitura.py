@@ -50,15 +50,16 @@ global = {
   lily.append ("    subsubtitle = \"Dados: " + repr(dados) + "\"\n")
   lily.append ("""    instrument = \"Partitura general\"
     composer = \"Germán Mercado\"
-    copyright = \\markup {\\with-url #\"http://lecturayescrituramusical.blogspot.com/\" {
-  \\center-column {
-    \\epsfile #0 #15 #\"recursos/soyncn.eps\"
-    \\bold {\"Nota contra Nota\"}
-    \"http://lecturayescrituramusical.blogspot.com/\"
-    \\null
+    copyright = \\markup {\\with-url #\"https://github.com/notacontranota/soylegion-inamu\" {
+      \\center-column {
+        \\concat { \\epsfile #0 #11 #\"recursos/soyinamu.eps\"
+        \\epsfile #0 #15 #\"recursos/soyncn.eps\" }
+        \\bold {\"Instituto Nacional de la Música & Nota contra Nota\"}
+        \"https://github.com/notacontranota/soylegion-inamu\"
+        \\null
+        }
+      }
     }
-                       }
-  }
     tagline = \"\"\n  }\n\n""")
   
   
@@ -111,15 +112,16 @@ global = {
     instrument = \"Violín, Flauta u Oboe\"\n """)
   lily.append ("   subsubtitle = \"Dados: " + repr(dados) + "\"\n")
   lily.append ("""    composer = \"Germán Mercado\"
-    copyright = \\markup {\\with-url #\"http://lecturayescrituramusical.blogspot.com/\" {
-  \\center-column {
-    \\epsfile #0 #15 #\"recursos/soyncn.eps\"
-    \\bold {\"Nota contra Nota\"}
-    \"http://lecturayescrituramusical.blogspot.com/\"
-    \\null
+    copyright = \\markup {\\with-url #\"https://github.com/notacontranota/soylegion-inamu\" {
+      \\center-column {
+        \\concat { \\epsfile #0 #11 #\"recursos/soyinamu.eps\"
+        \\epsfile #0 #15 #\"recursos/soyncn.eps\" }
+        \\bold {\"Instituto Nacional de la Música & Nota contra Nota\"}
+        \"https://github.com/notacontranota/soylegion-inamu\"
+        \\null
+        }
+      }
     }
-                       }
-  }
     tagline = \"\"
   }
 
@@ -145,15 +147,16 @@ global = {
     instrument = \\markup { \\concat {\"Viola o Clarinete en Si\" \\flat} }\n """)
   lily.append ("   subsubtitle = \"Dados: " + repr(dados) + "\"\n")
   lily.append ("""    composer = \"Germán Mercado\"
-    copyright = \\markup {\\with-url #\"http://lecturayescrituramusical.blogspot.com/\" {
-  \\center-column {
-    \\epsfile #0 #15 #\"recursos/soyncn.eps\"
-    \\bold {\"Nota contra Nota\"}
-    \"http://lecturayescrituramusical.blogspot.com/\"
-    \\null
+    copyright = \\markup {\\with-url #\"https://github.com/notacontranota/soylegion-inamu\" {
+      \\center-column {
+        \\concat { \\epsfile #0 #11 #\"recursos/soyinamu.eps\"
+        \\epsfile #0 #15 #\"recursos/soyncn.eps\" }
+        \\bold {\"Instituto Nacional de la Música & Nota contra Nota\"}
+        \"https://github.com/notacontranota/soylegion-inamu\"
+        \\null
+        }
+      }
     }
-                       }
-  }
     tagline = \"\"
   }
 
@@ -193,15 +196,16 @@ global = {
     instrument = \"Violoncello o Fagot\"\n """)
   lily.append ("   subsubtitle = \"Dados: " + repr(dados) + "\"\n")
   lily.append ("""    composer = \"Germán Mercado\"
-    copyright = \\markup {\\with-url #\"http://lecturayescrituramusical.blogspot.com/\" {
-  \\center-column {
-    \\epsfile #0 #15 #\"recursos/soyncn.eps\"
-    \\bold {\"Nota contra Nota\"}
-    \"http://lecturayescrituramusical.blogspot.com/\"
-    \\null
+    copyright = \\markup {\\with-url #\"https://github.com/notacontranota/soylegion-inamu\" {
+      \\center-column {
+        \\concat { \\epsfile #0 #11 #\"recursos/soyinamu.eps\"
+        \\epsfile #0 #15 #\"recursos/soyncn.eps\" }
+        \\bold {\"Instituto Nacional de la Música & Nota contra Nota\"}
+        \"https://github.com/notacontranota/soylegion-inamu\"
+        \\null
+        }
+      }
     }
-                       }
-  }
     tagline = \"\"
   }
 
@@ -212,40 +216,6 @@ global = {
       \\accidentalStyle Staff.modern-cautionary
       \\clef bass
       <<\\global \\compressMMRests{\\violoncello}>>
-    }
-    \\layout {
-      indent = 0\\cm
-    }
-  }
-}
-
-\\bookpart {
-  \\header {
-    dedication = \\markup { \\italic \"de «Soy Legión»\" }
-    title = \"Minué\"
-    subtitle = \"(Trío de cuerdas)\"
-    instrument = \\markup { \\concat {\"Clarinete en Si\" \\flat} }\n """)
-  lily.append ("   subsubtitle = \"Dados: " + repr(dados) + "\"\n")
-  lily.append ("""    composer = \"Germán Mercado\"
-    copyright = \\markup {\\with-url #\"http://lecturayescrituramusical.blogspot.com/\" {
-  \\center-column {
-    \\epsfile #0 #15 #\"recursos/soyncn.eps\"
-    \\bold {\"Nota contra Nota\"}
-    \"http://lecturayescrituramusical.blogspot.com/\"
-    \\null
-    }
-                       }
-  }
-    tagline = \"\"
-  }
-
-  \\markup { \\vspace #1 }
-  \\score {
-    \\new Staff {
-      \\overrideTimeSignatureSettings 3/4 1/4 1,1,1 #'() %para dividir beats.
-      \\accidentalStyle Staff.modern-cautionary
-      \\clef treble
-      \\transpose c d <<\\global \\compressMMRests{\\viola}>>
     }
     \\layout {
       indent = 0\\cm
