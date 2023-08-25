@@ -11,7 +11,7 @@
   subtitle = "Juego de dados para trío de cuerdas"
   composer = \markup { "Germán Mercado" }
   instrument = "Partitura general"
-  copyright = "©2020 Germán Mercado - Todos los derechos reservados."
+  copyright = "©2023 Germán Mercado - Todos los derechos reservados."
   tagline = ""
 }
 

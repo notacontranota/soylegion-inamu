@@ -9,15 +9,15 @@
   instrument = "Partitura general"
   dedication = \markup { "de" \italic "«Soy Legión»" }
   copyright = \markup {\with-url #"http://lecturayescrituramusical.blogspot.com/" {
-      \center-column {
-        \concat { \epsfile #0 #11 #"../recursos/soyinamu.eps"
-        \epsfile #0 #15 #"../recursos/soyncn.eps" }
-        \bold {"Instituto Nacional de lla Música & Nota contra Nota"}
-        "http://lecturayescrituramusical.blogspot.com/"
-        \null
-        }
+    \center-column {
+      \concat { \epsfile #0 #11 #"../recursos/soyinamu.eps"
+      \epsfile #0 #15 #"../recursos/soyncn.eps" }
+      \bold {"Instituto Nacional de la Música & Nota contra Nota"}
+      "http://lecturayescrituramusical.blogspot.com/"
+      \null
       }
     }
+  }
   tagline = ##f
 }
 \layout  {

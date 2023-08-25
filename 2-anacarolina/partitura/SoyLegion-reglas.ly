@@ -11,7 +11,7 @@
   subtitle = "Juego de dados para trío de cuerdas"
   composer = "Pablo Herrera"
   instrument = "Partitura general"
-  copyright = "©2020 Pablo Herrera - Todos los derechos reservados."
+  copyright = "©2023 Pablo Herrera - Todos los derechos reservados."
   tagline = ""
 }
 

@@ -8,12 +8,13 @@
   composer = \markup { "Germán Mercado" }
   instrument = "Partitura general"
   dedication = \markup { "de" \italic "«Soy Legión»" }
-  copyright = \markup {\with-url #"http://osijsalta.com/" {
-      \center-column {
-        \epsfile #0 #12 #"../recursos/osijs.eps"
-        \bold {"Orquesta Sinfónica Infantil y Juvenil de Salta"}
-        "http://osijsalta.com"
-        \null
+  copyright = \markup {\with-url #"http://lecturayescrituramusical.blogspot.com/" {
+    \center-column {
+      \concat { \epsfile #0 #11 #"../recursos/soyinamu.eps"
+      \epsfile #0 #15 #"../recursos/soyncn.eps" }
+      \bold {"Instituto Nacional de la Música & Nota contra Nota"}
+      "http://lecturayescrituramusical.blogspot.com/"
+      \null
       }
     }
   }
