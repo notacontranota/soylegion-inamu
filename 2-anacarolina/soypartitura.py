@@ -186,7 +186,6 @@ global = {
     }
   }
 }
-}
 
 \\bookpart {
   \\header {
